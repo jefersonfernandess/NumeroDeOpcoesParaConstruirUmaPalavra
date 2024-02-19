@@ -13,19 +13,17 @@ function iniciarVerificacao() {
             let palavraDaVez = juntarDuasPalavras(arrayDePalavras[i], arrayDePalavras[j]);
             if (palavraAlvo == palavraDaVez) {
                 contadorDasPalavrasConstruidas += 1;
-                console.log("============================================================");
                 console.log(`A palavra ${palavraDaVez} é igual a palavra ${palavraAlvo}`);
                 console.log(palavraDaVez.length);
                 console.log(palavraAtualDoLoop.length);
-                console.log("============================================================");
+                console.log("====================================================");
+
             }
             else {
-                console.log("============================================================");
                 console.log(`A palavra ${palavraDaVez} não é igual a palavra ${palavraAlvo}`);
                 console.log(palavraDaVez.length);
                 console.log(palavraAtualDoLoop.length);
-                console.log("============================================================");
-
+                console.log("====================================================");
             }
             contador += 1
         }
